@@ -6,6 +6,9 @@ const app = express();
 // Connect Database
 connectDB();
 
+// Init Middelware
+app.use(express.json({ extend: false }));
+
 app.get('/', (req, res) => res.send('API Running'));
 
 // Define Routes
