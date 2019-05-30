@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://chris:chris1234@cluster0-smvru.mongodb.net/devconnector?retryWrites=true"
+  "mongoURI": "mongodb+srv://chris:chris1234@cluster0-smvru.mongodb.net/devconnector?retryWrites=true",
+  "jwtSecret": "mysecrettoken"
 }
