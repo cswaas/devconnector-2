@@ -2,7 +2,7 @@ import axios from 'axios';
 import { setAlert } from './alert';
 
 import { GET_PROFILE, PROFILE_ERROR } from './types';
-import profile from '../reducers/profile';
+// import profile from '../reducers/profile';
 
 // Get current user profile
 export const getCurrentProfile = () => async dispatch => {
